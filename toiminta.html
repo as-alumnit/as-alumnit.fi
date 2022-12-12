@@ -1,0 +1,142 @@
+---
+layout: content
+title: Toiminta
+---
+
+<h3>Yhdistyksen Toiminta</h3>
+<img src="/img/iceye_excu.jpg" class="img-responsive img-rounded pull-right" style="max-width: 30%" alt=""/>
+
+<p>
+Yhdistys järjestää jäsenistölleen runsaasti sekä ammatillisia tapahtumia, kuten excursiota ja seminaareja, että vapaa-ajan toimintaa aina minigolfista vaeulluksiin ja oopperaan. Tapahtumista ja niihin ilmoittautumisista ilmoitetaan virallisia viestintäkanavia pitkin.
+</p>
+
+<h2>Tulevat tapahtumat</h2>
+
+<ul id="event-list" class="event_list"></ul>
+
+
+<script src="/js/moment.min.js"></script>
+<script src="/js/format-google-calendar.js"></script>
+<script type="text/javascript">
+  var startDate = new Date();
+  var endDate = new Date();
+  startDate.setDate(startDate.getDate() - 1);
+  endDate.setFullYear(startDate.getFullYear() + 1);
+  var timestamp_start = startDate.toISOString();
+  var timestamp_end = endDate.toISOString();
+  formatGoogleCalendar.init({
+    calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/0503k2bbpdq7iepjbdk7es2hn0%40group.calendar.google.com/events?key=AIzaSyAcvAenP9UX6dQNgp6u7MWvbzl3Ssc28A0',
+    past: false,
+    upcoming: true,
+    sameDayTimes: true,
+    dayNames: true,
+    pastTopN: -1,
+    upcomingTopN: 5,
+    recurringEvents: true,
+    itemsTagName: 'li',
+    upcomingSelector: '#event-list',
+    pastSelector: '#event-list-2',
+    upcomingHeading: '',
+    pastHeading: '',
+    format: ['*date*', ' - ', '*summary*'],
+    timeMin: timestamp_start,
+    timeMax: timestamp_end
+  });
+</script>
+
+<a href="https://calendar.google.com/calendar/embed?src=0503k2bbpdq7iepjbdk7es2hn0@group.calendar.google.com&ctz=Europe/Helsinki">Kalenteriin >></a>
+
+
+
+
+<h2> Menneitä tapahtumia</h2>
+
+
+<h3>2021</h3>
+<ul>
+<!--
+<li> x.04.2020 - VR: Viski on Rocks -seminaari @ Helsinki
+<li> x.04.2020 - Thermo Fisher -excursio @ Helsinki
+-->
+</ul>
+
+<h3>2020</h3>
+<ul>
+<li>9.12.2020 - Vaalikokous @ Etäyhteyksillä
+<li>21.10.2020 - WEBx AS-Alumnit #4: Aatos.app
+<li>1.5.2020 - AS-alumnit etäwappu skumppa @Jitsi
+<li>8.4.2020 - WEBx AS-Alumnit #3: Avaruus web-seminaari
+<li>1.4.2020 - WEBx AS-Alumnit #2: Avaruusohjelmistot web-seminaari
+<li>25.3.2020 - WEBx AS-Alumnit #1: Koneoppimisaiheinen web-seminaari
+<li>4.3.2020 - Vuosikokous + kvartaalikaljat @ Espoo, Tapiola
+</ul>
+
+<h3>2019</h3>
+<ul>
+<li> 14.12.2019 - Pikkujoulut ja vaalikokous @ Espoo, Otaniemi
+<li> 13.11.2019 - Uraa UurtamAS @ Rantasauna, Otaniemi, Espoo 
+<li> 26.10.2019 - AlumniStudentWeekend @ Otaniemi, Espoo
+<li> 20.10.2019 - Syysretki Nuuksioon @ Nuuksio, Espoo
+<li> 15.6.2019 - Suomenlinnan retki/piknik @ Suomenlinna, Helsinki
+<li> 1.5.2019 - Wappuskumpat @ Ullanlinnanmäki, Helsinki
+<li> 14.4.2019 - Alumnien kevätretki @ Nuuksio, Helsinki
+<li> 23.3.2019 - Alumnien+Wanhojen Sauna @ Otaniemi, Espoo
+<li> 19.3.2019 - Assemblin-Excursio ja vuosikokous @ Haaga, Helsinki
+<li> 11.2.2019 - ICEYE -excursion @ Otaniemi, Espoo
+<li> 15.1.2019 - Kuukausikaljat @ Fatlizard, Otaniemi
+</ul>
+
+<h3>2018</h3>
+<ul>
+<li> 15.12.2018 - AS-alumnien pikkujoulut @ Atlantinkadun kabinetti, Helsinki
+<li> 15.11.2018 - Kuukausikaljat @ Bierhaus Munchen, Helsinki
+<li> 1.11.2018 - Vaalikokous @ Sievo Oy, Helsinki
+<li> 27.10.2018 - AlumniStudent Weekend @ Otaniemi
+<li> 15.10.2018 - Kuukausikaljat @ Sidewalk, Lauttasaari
+<li> 13.10.2018 - Kulttuuriretki Kansallisooperaan @ Operatalo, Helsinki
+<li> 4.10.2018 - Eficode excursio @ Kamppi, Helsinki
+<li> 15.9.2018 - Kuukausikaljat @ Hohtogold West Coast Iso Omena, Espoo
+<li> 3.9.2018 - GIM & Sensible4 Excursio @ Otaniemi, Espoo
+<li> 15.08.2018 - AS-alumnien kuukausikaljat & Syksyn suunnittelu @ Fat Lizard, Otaniemi
+<li> 27.7.2018 - Suuret Oluet Pienet Panimot @ Rautatientori, Helsinki
+<li> 15.07.2018 - Kuukausikaljat @ Casino Helsinki
+<li> 26.6.2018 - VR-pelailu @ Pikseli Arcade, Iso Omena, Espoo
+<li> 15.06.2018 - Kuukausikaljat @ Ravintola Suomenlinnan Panimo, Helsinki
+<li> 18.5.2018 - 4v vuosijuhlat @ Kääntöpöytä, Pasila
+<li> 15.5.2018 - Kuukausikaljat @ Ohrana Brewery, Helsinki
+<li> 6.5.2018 - Alumnien kevätretkit @Nuuksion kansallispuisto, Espoo
+<li> 1.5.2018 - Wappuskumpat Ulliksella feat. Assemblin Oy @ Ullanlinnamäki, Helsinki
+<li> 15.5.2018 - Kuukausikaljat @ Ohrana, Helsinki
+<li> 26.4.2018 - AS-Alumnien Vuosikokous @ Gofore, Kamppi, Helsinki
+<li> 20.4/2018 - VR-kokeilu @ Pikseli Arcade Iso Omena, Espoo
+<li> 15.4.2018 - Kuukausikaljat @ Oluthuone Sailor's, Herttoniemi, Helsinki
+<li> 15.2.2018 - Kuukausikaljat @ Oluthuone Kaisla, Kaisaniemi
+<li> 15.1.2018 - Kuukausikaljat @ Fatlizard, Otaniemi
+</ul>
+
+<h3>2017</h3>
+<ul>
+<li> 13.1.2017 - Tammikuun 2017 kuukausikaljat @ Sherlock Pub, Tapiola
+<li> 24.1.2017 - Netlight LinkedIN- ja CV-iltama @ Netlight Consulting, Helsinki
+<li> 15.2.2017 - Alumnien helmikuun kuukausikaljat sekä biljardi @ Bar Chaplin, Helsinki
+<li> 18.3.2017 - Vuosikokous @ Akseli-sali, Espoo
+<li> 18.4.2017 - Alumnien kuukausikeilaus @ BowlCircus, Espoo
+<li> 01.5.2017 - Wappuskumpat @ Ullanlinnanmäki, Helsinki
+<li> 12.5.2017 - 3v vuosijuhlat @ Albergan kartano, Espoo
+<li> 13.5.2017 - Eskalaatio @ Donor's Lounge, Espoo
+<li> 15.6.2017 - Suomenlinnan Picnic @ Suomenlinna, Helsinki
+<li> 18.7.2017 - Heinäkuun kuukausikaljat @ Teerenpeli, Helsinki
+<li> 14.8.2017 - Elokuun kuukausikaljat @ Sherlock Pub, Tapiola
+<li> 23.8.2017 - Alumnigolf @ Löfkulla Golf, Espoo
+<li> 31.8.2017 - Giniä ja Tietoturvaa- seminaari @ Sweco Finland, Helsinki
+<li> 15.9.2017 - Syyskuun kuukausikaljat @ Oluthuone Lehto, Helsinki
+<li> 27.9.2017 - Dipoliexcursio, AS-alumnit ja Assemblin Oy @ Dipoli, Otaniemi
+<li> 11.10.2017 - Uraa uurtamAS-seminaari @ Rantasauna, Otaniemi
+<li> 28.10.2017 - Aalto Alumni Student Weekend @ TUAS-talo, Otaniemi
+<li> 17.11.2017 - Vaalikokous ja olutmaistelu @ RELEX Solutions, Helsinki
+</ul>
+
+
+<p>
+Lisää vanhempia tapahtumia löytyy <a href="/arkisto/">arkistosta</a>!
+</p>

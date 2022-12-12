@@ -1,0 +1,62 @@
+---
+layout: content
+title: Automaatio- ja systeemi&shy;tekniikan alumnit ry
+---
+
+<div style="height: 20px;"></div>
+<p>
+<img style="float: right" src="/img/AS-alumnien_leima-200x200.png"/>
+
+<center><b>Automaatio- ja systeemi&shy;tekniikan alumnit</b> on vuonna 2014 perustettu Aalto-yliopiston
+Automaatio- ja systeemitekniikkaa (AS) opiskelleiden, opettaneiden tai muutoin AS-killan
+piirissä toimineiden alumnijärjestö, joka järjestää jäsenistölleen työelämään enemmän
+ja vähemmän liittyvää toimintaa. 
+
+Yhdistys toivottaa tervetulleeksi myös muut saman
+tutkinto-ohjelman opiskelijat, kuten viestintätekniikan ja informaatioteknologian
+opiskelijat, sekä AS:ää sivuaineenaan opiskelleet.<br /><br />
+</center><p>
+
+
+<div style="text-align: center;">
+<a href="/jaseneksi.html" class="btn btn-xl">Liity jäseneksi</a></span>
+</div>
+
+
+<h2>Tulevat tapahtumat</h2>
+
+<ul id="event-list" class="event_list"></ul>
+
+
+<script src="/js/moment.min.js"></script>
+<script src="/js/format-google-calendar.js"></script>
+<script type="text/javascript">
+  var startDate = new Date();
+  var endDate = new Date();
+  startDate.setDate(startDate.getDate() - 1);
+  endDate.setFullYear(startDate.getFullYear() + 2);
+  var timestamp_start = startDate.toISOString();
+  var timestamp_end = endDate.toISOString();
+  formatGoogleCalendar.init({
+    calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/0503k2bbpdq7iepjbdk7es2hn0%40group.calendar.google.com/events?key=AIzaSyAcvAenP9UX6dQNgp6u7MWvbzl3Ssc28A0',
+    past: false,
+    upcoming: true,
+    sameDayTimes: true,
+    dayNames: true,
+    pastTopN: -1,
+    upcomingTopN: 5,
+    recurringEvents: true,
+    itemsTagName: 'li',
+    upcomingSelector: '#event-list',
+    pastSelector: '#event-list-2',
+    upcomingHeading: '',
+    pastHeading: '',
+    format: ['*date*', ' - ', '*summary*'],
+    timeMin: timestamp_start,
+    timeMax: timestamp_end
+  });
+</script>
+<a href="https://calendar.google.com/calendar/embed?src=0503k2bbpdq7iepjbdk7es2hn0@group.calendar.google.com&ctz=Europe/Helsinki">Kalenteriin >></a>
+
+
+

@@ -1,0 +1,4 @@
+
+asd:
+	jekyll build
+
