@@ -52,25 +52,25 @@ Yhdistystä voi seurata @ASalumnit nimellä.
 - <span style="color: #a72953; font-weight: bold;">IRC:</span>
 Yhdistyksellä on IRC-kanava <span style="font-family: 'Lucida Console', monospace;">!as-alumnit</span> IRCnetissä, koska mihinpä insinööri vanhoista tavoistaan pääsisi.
 
-
-## Hallitus 2021
+## Hallitus 2022
 Yhteydenotot sähköpostitse: hallitus (ät) as-alumnit.fi.
 
-<b>Puheenjohtaja: Joel Huttunen</b>
+<b>Puheenjohtaja: Noora Salminen</b>
 
 <b>Hallituksen jäsenet:</b><br/>
-Roope Pääkkönen (varapuheenjohtaja)<br/>
-Petri Niemelä (sihteeri, tekninen ylläpito)<br/>
-Ville Eronen (rahastonhoitaja)<br/>
-Niilo Metsänen (tiedottaja)<br/>
-Noora Salminen (tapahtumat ja sosiaalinen media)<br/>
-Juho Sundin (sääntöhenkilö)<br/>
-Juuso Määttä (kiltayhteyshenkilö)<br/>
+Joel Huttunen (urheiluhenkilö ja yliopistoyhdyshenkilö)<br/>
+Juho Sundin (sääntöbyrokraatti)<br/>
+Ville Eronen (Rahastonhoitaja)<br/>
+Roope Pääkkönen (Varapuheenjohtaja)<br/>
+Sanna Halmkrona (Yrityssuhdevastaava)<br/>
+Aino Valkama (kiltayhdyshenkilö)<br/>
+Niilo Metsänen<br/>
 
-### Toimihenkilöt 2020
-
-Vuodelle ei ole valittu toimihenkilöitä mutta hallitus voi heitä nimittää kuluvan vuoden aikana.
-
+### Toimihenkilöt 2022
+Henry Sanmark, Sääntöbyrokraatti<br/>
+Kaisa Hynynen, Uraauurtamas<br/>
+Konsta Hölttä, Puistojaoksen puheenjohtaja<br/>
+Petri Niemelä, ATK-jamppa<br/>
 
 Edeltävät hallitukset ja toimihenkilöt löytyvät <a href="/arkisto/">arkistosta</a>.
 
