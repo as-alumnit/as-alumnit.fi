@@ -6,6 +6,7 @@ title: Arkisto
 # Arkisto
 
 <ul>
+<li><a href="/arkisto/2022/">2022</a>
 <li><a href="/arkisto/2021/">2021</a>
 <li><a href="/arkisto/2020/">2020</a>
 <li><a href="/arkisto/2019/">2019</a>
