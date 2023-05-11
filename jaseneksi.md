@@ -40,6 +40,6 @@ Viestistä tulee käydä ilmi vähintään nimi, sähköposti, puhelinnumero ja 
 # Hae jäseneksi
 <br /><br />
 <div style="text-align: center;">
-<iframe style="margin: 0 auto; max-width: 100% !important;" src="https://docs.google.com/forms/d/e/1FAIpQLScNhHfc-qdSZo3YFSbGLScbR8zn73aGYm6jrOc3K3K_UcAwQw/viewform?embedded=true" width="640" height="2322" frameborder="0" marginheight="0" marginwidth="0">Ladataan...</iframe>
+<iframe style="margin: 0 auto; max-width: 100% !important;" src="https://docs.google.com/forms/d/e/1FAIpQLScNhHfc-qdSZo3YFSbGLScbR8zn73aGYm6jrOc3K3K_UcAwQw/viewform?embedded=true" width="640" height="2800" frameborder="0" marginheight="0" marginwidth="0">Ladataan...</iframe>
 </div>
 
